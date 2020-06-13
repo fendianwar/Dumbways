@@ -1,0 +1,45 @@
+
+.crop img{
+	width: 200px;
+	height: 250px;
+	object-fit: cover;
+	border-radius: 8px;
+
+}
+.item {
+	display: flex;
+	flex-wrap: wrap;
+	border-radius: 10px;
+}
+
+.item__text {
+	max-width: 40em;
+}
+
+.item__image {
+	margin-right: 1em;
+}
+.author{
+	margin-top: -5px;
+	font-size: 15px;
+}
+@media screen and (max-width: 990px) {
+	.item__image{
+		flex:1 1 10em;
+		margin-right: 1em;
+		text-align: center;
+	}
+}
+.content {
+	width: 100%;
+	padding: 20px;
+	min-height: 100vh;
+	transition: all 0.3s;
+}
+.btn-ling{
+	width: 35px; 
+	height: 35px;
+	border-radius: 100%; 
+	padding: .25rem .25rem;
+	font-size: 15px;
+}
